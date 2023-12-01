@@ -1,0 +1,9 @@
+com\crud\biblioteca\controller\PrestamoController.class
+com\crud\biblioteca\model\Libro.class
+com\crud\biblioteca\repository\IrepositoryLibro.class
+com\crud\biblioteca\service\IlibroService.class
+com\crud\biblioteca\BibliotecaApplication.class
+com\crud\biblioteca\model\Prestamo.class
+com\crud\biblioteca\repository\IprestamoRepository.class
+com\crud\biblioteca\service\PrestamoService.class
+com\crud\biblioteca\service\IprestamoService.class

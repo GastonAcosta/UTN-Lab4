@@ -1,0 +1,14 @@
+
+package com.crud.biblioteca.repository;
+
+import com.crud.biblioteca.model.Libro;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface IrepositoryLibro extends JpaRepository <Libro, Long> {
+    @Query("SELECT l FROM Libro l WHERE l.titulo = :titulo")
+    Libro findByTittle(@Param("titulo") String titulo);
+}
